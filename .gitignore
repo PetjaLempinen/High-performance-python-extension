@@ -1,0 +1,9 @@
+# c++
+*.exe
+pathfinder
+build/
+# python
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
