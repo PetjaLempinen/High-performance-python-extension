@@ -29,7 +29,7 @@ A high-performance computational extension that bridges the gap between **C++** 
 ├── main.cpp           # Test for the A*
 ├── CMakeLists.txt     # Build system configuration
 └── README.md
-
+```
 ---
 
 ## Quick Start
@@ -38,7 +38,7 @@ Follow these steps to set up and run the C++ A* pathfinder extension locally.
 
 # 1. Prerequisites
 Ensure you have the following installed on your system:
-* Python (3.x)
+* Python (>=3.9)
 * CMake
 * A C++ compiler (such as MSVC on Windows, GCC, or Clang)
 
