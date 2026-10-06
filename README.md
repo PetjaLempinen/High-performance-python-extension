@@ -36,16 +36,16 @@ A high-performance computational extension that bridges the gap between **C++** 
 
 Follow these steps to set up and run the C++ A* pathfinder extension locally.
 
-### 1. Prerequisites
+# 1. Prerequisites
 Ensure you have the following installed on your system:
 * Python (3.x)
 * CMake
 * A C++ compiler (such as MSVC on Windows, GCC, or Clang)
 
-### 2. Set Up the Virtual Environment
+# 2. Set Up the Virtual Environment
 
-### 3. Install Extensions Locally
+# 3. Install Extensions Locally
 ```pip install -e .
 
-### 4. Run the test script
+# 4. Run the test script
 test_pathfinder.py
