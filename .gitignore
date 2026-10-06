@@ -1,4 +1,4 @@
-# --- Build Directories & Artifacts ---
+# Build Directories & Artifacts
 /build/
 /Release/
 CMakeCache.txt
@@ -9,14 +9,14 @@ CMakeFiles/
 *.exp
 *.exe
 
-# --- Python Virtual Environment ---
+# Python Virtual Environment
 /Astarpathfinder/
 
-# --- Python Packaging / Setuptools ---
+# Python Packaging / Setuptools
 *.egg-info/
 /dist/
 /build/
 .eggs/
 
-# --- IDE Settings (Optional) ---
+# IDE Settings
 .vscode/
