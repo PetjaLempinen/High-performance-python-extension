@@ -30,6 +30,8 @@ A high-performance computational extension that bridges the gap between **C++** 
 ├── CMakeLists.txt     # Build system configuration
 └── README.md
 
+---
+
 ## Quick Start
 
 Follow these steps to set up and run the C++ A* pathfinder extension locally.
