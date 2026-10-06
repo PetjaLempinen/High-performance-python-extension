@@ -69,6 +69,8 @@ pip install -r requirements.txt
 ```pip install -e .
 python setup.py build_ext --inplace
 ```
+#### Don't forget to move or ensure the compiled pathfinder_ext.cp314-win_amd64.pyd file is in your working directory if needed, or handled by your build output
+
 ### Run test script
 ```
 python test_pathfinder.py
