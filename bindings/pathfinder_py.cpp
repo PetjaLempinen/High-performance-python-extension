@@ -7,7 +7,7 @@ namespace py = pybind11;
 PYBIND11_MODULE(pathfinder_ext, m) {
     m.doc() = "High-performance A* pathfinder C++ extension";
 
-    // Expose Point struct so Python can use it easily
+    // Expose Point struct for python
     py::class_<Point>(m, "Point")
         .def(py::init<int, int>())
         .def_readwrite("x", &Point::x)
