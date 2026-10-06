@@ -44,8 +44,8 @@ Ensure you have the following installed on your system:
 
 ### 2. Set Up the Virtual Environment
 
-### 3. Install Extensions Locally
-```pip install -e .
+### 3. Install requirements
+```pip install -r requirements.txt .
 
 ### 4. Run the test script
 test_pathfinder.py
