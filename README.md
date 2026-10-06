@@ -42,10 +42,34 @@ Ensure you have the following installed on your system:
 * CMake
 * A C++ compiler (such as MSVC on Windows, GCC, or Clang)
 
-### 2. Set Up the Virtual Environment
+### 2. Clone the Repository & Set Up Virtual Environment
+```powershell
+git clone [https://github.com/PetjaLempinen/High-performance-python-extension.git](https://github.com/PetjaLempinen/High-performance-python-extension.git)
+cd High-performance-python-extension
+```
 
-### 3. Install requirements
-```pip install -r requirements.txt .
+### Create and activate a virtual environment
+```
+python -m venv venv
+```
+### On Windows (PowerShell):
+```
+.\venv\Scripts\Activate.ps1
+```
+### On macOS/Linux:
+```
+source venv/bin/activate
+```
+### Install build tools and requirements
+```
+pip install -r requirements.txt
+```
 
-### 4. Run the test script
-test_pathfinder.py
+### Install the package in editable mode and build the C++ extension locally
+```pip install -e .
+python setup.py build_ext --inplace
+```
+### Run test script
+```
+python test_pathfinder.py
+```
