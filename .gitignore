@@ -1,9 +1,13 @@
 # c++
-*.exe
-pathfinder
 build/
+*.exe
+*.obj
+*.o
+.cmake/
 # python
 venv/
 __pycache__/
 *.pyc
 .pytest_cache/
+
+.vscode/
