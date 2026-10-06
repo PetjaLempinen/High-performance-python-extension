@@ -1,13 +1,22 @@
-# c++
-build/
+# --- Build Directories & Artifacts ---
+/build/
+/Release/
+CMakeCache.txt
+CMakeFiles/
+*.cmake
+*.pyd
+*.lib
+*.exp
 *.exe
-*.obj
-*.o
-.cmake/
-# python
-venv/
-__pycache__/
-*.pyc
-.pytest_cache/
 
+# --- Python Virtual Environment ---
+/Astarpathfinder/
+
+# --- Python Packaging / Setuptools ---
+*.egg-info/
+/dist/
+/build/
+.eggs/
+
+# --- IDE Settings (Optional) ---
 .vscode/
