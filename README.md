@@ -43,23 +43,7 @@ Ensure you have the following installed on your system:
 * A C++ compiler (such as MSVC on Windows, GCC, or Clang)
 
 ### 2. Clone the Repository & Set Up Virtual Environment
-```powershell
-git clone [https://github.com/PetjaLempinen/High-performance-python-extension.git](https://github.com/PetjaLempinen/High-performance-python-extension.git)
-cd High-performance-python-extension
-```
 
-### Create and activate a virtual environment
-```
-python -m venv venv
-```
-### On Windows (PowerShell):
-```
-.\venv\Scripts\Activate.ps1
-```
-### On macOS/Linux:
-```
-source venv/bin/activate
-```
 ### Install build tools and requirements
 ```
 pip install -r requirements.txt
